@@ -11,17 +11,19 @@ This solution enables the Procurement team to easily monitor and track shipments
 
 - An Azure SQL database with structured tables for shipments, materials, suppliers, and shipment items.
 
-- A Streamlit web app offering:
+![sql](screenshots/screenshot_database.png)
 
-  - A direct SQL query interface. 
-  
-  ![sql](screenshots/screenshot_sql.png)
+- A Streamlit web app with direct SQL query interface. 
 
-  - An OpenAI-powered chatbot for natural language queries.
-  ![chatbot](screenshots/screenshot_chatbot.png)
+![sql](screenshots/screenshot_sql.png)
 
-  - Built-in safeguards to allow only safe, non-destructive SELECT queries.
-  ![safe](screenshots/screenshot_safe.png)
+- An OpenAI-powered chatbot for natural language queries.
+
+![chatbot](screenshots/screenshot_chatbot.png)
+
+- Built-in safeguards to allow only safe, non-destructive SELECT queries.
+
+![safe](screenshots/screenshot_safe.png)
     
 ## Components
 ### 1. Azure SQL database
