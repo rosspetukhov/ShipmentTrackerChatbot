@@ -13,11 +13,15 @@ This solution enables the Procurement team to easily monitor and track shipments
 
 - A Streamlit web app offering:
 
-  - A direct SQL query interface.
+  - A direct SQL query interface. 
+  
+  ![sql](screenshots/screenshot_sql.png)
 
   - An OpenAI-powered chatbot for natural language queries.
+  ![chatbot](screenshots/screenshot_chatbot.png)
 
-- Built-in safeguards to allow only safe, non-destructive SELECT queries.
+  - Built-in safeguards to allow only safe, non-destructive SELECT queries.
+  ![safe](screenshots/screenshot_safe.png)
     
 ## Components
 ### 1. Azure SQL database
